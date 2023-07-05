@@ -318,7 +318,7 @@ class CameraStream(QMainWindow):
 
         for i, label in enumerate(self.labels):
             pxmap = QPixmap.fromImage(images[i])
-            label.setPixmap(pxmap)
+            label.setPixmap(pxmap) #set the pixmap for the labels
 
 
 if __name__ == "__main__":
